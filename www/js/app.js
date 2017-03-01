@@ -33,6 +33,8 @@ app.controller('main', function ($scope, $ionicModal, localStorageService) {
 
     var taskData = 'task';
 
+    console.log('this is testing');
+
     //initialize the tasks scope with empty array
     $scope.tasks = [];
 
